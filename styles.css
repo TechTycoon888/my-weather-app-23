@@ -1,0 +1,130 @@
+body {
+  background-color: #111;
+  color: rgb(201, 207, 247);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 6px;
+}
+
+.container {
+  text-align: center;
+  padding-top: 36px;
+  border: 1px solid white;
+  max-width: fit-content;
+  margin: auto;
+  border-radius: 2px;
+}
+
+p {
+  margin-bottom: 8px;
+}
+
+.icon {
+  margin: 0px 0px 0px 0px;
+  font-size: 10em;
+}
+
+.location {
+  font-size: 1.3em;
+}
+
+.heading {
+  font-size: 1em;
+  padding-top: 16px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.tempMain {
+  display: inline-flex;
+  font-size: 6em;
+  margin: -100px 0px -60px 0px;
+  padding: 0px;
+}
+
+.unitsMain {
+  color: #333;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 0.5em;
+  margin-top: 105;
+  color: white;
+}
+
+form {
+  white-space: nowrap;
+}
+
+#formValueId {
+  padding-top: 24px;
+  border: none;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgb(201, 207, 247);
+  background-color: transparent;
+  color: rgb(201, 207, 247);
+  font-size: 1.6em;
+  font-weight: 300;
+  width: auto;
+  letter-spacing: 6px;
+  border-radius: 0px;
+}
+
+.custom {
+  padding-top: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.my-city {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#date-container {
+  margin-bottom: 10px;
+}
+
+.location {
+  color: white;
+}
+.heading {
+  color: white;
+}
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  text-align: center;
+  font-size: 80px;
+  padding: 10px;
+}
+
+.i {
+  height: 20px;
+  width: 30px;
+}
+
+.weekDays {
+  font-size: 20px;
+}
+
+.temp {
+  color: #333;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+}
+.num {
+  color: #333;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+}
+.units {
+  color: #333;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+}
